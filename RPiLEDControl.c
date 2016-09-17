@@ -31,7 +31,7 @@ int main (int argc, char **argv)
   {
     bcm2835_gpio_set(18);   /* Pin 18 = 1 = high = on */
     bcm2835_delay(_delay);  /* delay in Milliseconds */
-    bcm2835_gpio_clr(18);   /* Pin 18 = 0 = low = off 8/
+    bcm2835_gpio_clr(18);   /* Pin 18 = 0 = low = off */
     bcm2835_delay(_delay);  /* delay in Milliseconds */
   }
   return 0;
